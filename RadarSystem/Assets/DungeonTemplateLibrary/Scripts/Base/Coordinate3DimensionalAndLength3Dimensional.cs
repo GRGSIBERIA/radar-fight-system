@@ -26,6 +26,11 @@ namespace DTL.Base {
         public int h { get; set; }
         public int d { get; set; }
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public Coordinate3DimensionalAndLength3Dimensional() { } // default
 
         public Coordinate3DimensionalAndLength3Dimensional(int x, int y, int z) {

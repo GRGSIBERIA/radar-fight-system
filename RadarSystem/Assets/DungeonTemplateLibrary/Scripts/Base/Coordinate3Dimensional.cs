@@ -25,6 +25,11 @@ namespace DTL.Base {
         public int y { get; set; }
         public int z { get; set; }
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public Coordinate3Dimensional(int x, int y, int z) {
             this.x = x;
             this.y = y;

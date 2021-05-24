@@ -28,6 +28,11 @@ namespace DTL.Base {
         public int x { get; set; }
         public int y { get; set; }
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public Coordinate2Dimensional(int x, int y) {
             this.x = x;
             this.y = y;

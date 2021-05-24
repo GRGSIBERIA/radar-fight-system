@@ -253,3 +253,91 @@ System memory in use after: 56.4 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1546.
 Total: 1.749192 ms (FindLiveObjects: 0.120229 ms CreateObjectMapping: 0.036949 ms MarkObjects: 1.538057 ms  DeleteObjects: 0.053370 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1619.
+Total: 2.280254 ms (FindLiveObjects: 0.132546 ms CreateObjectMapping: 0.039001 ms MarkObjects: 2.067067 ms  DeleteObjects: 0.040761 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 900.267896 seconds.
+  path: Assets/DiamondSquareAverageCornerIslandSample.asset
+  artifactKey: Guid(9e8c6934c8ac3fa4280a5ca7808f59e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DiamondSquareAverageCornerIslandSample.asset using Guid(9e8c6934c8ac3fa4280a5ca7808f59e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997eaf5073c7a4a8629277feb9ef08b4') in 0.139005 seconds
+  Import took 0.142332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/PerlinIslandSample.asset
+  artifactKey: Guid(4e85fd67851412d4cbf04b1188329509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PerlinIslandSample.asset using Guid(4e85fd67851412d4cbf04b1188329509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f67f9ce15a10aaa79da3712e1832a0') in 0.166666 seconds
+  Import took 0.169870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/FractalIslandSample.asset
+  artifactKey: Guid(0aaa66537eea50b44b6c407b29502e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FractalIslandSample.asset using Guid(0aaa66537eea50b44b6c407b29502e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a22b111f846264cc8ac634b004125bf') in 0.121702 seconds
+  Import took 0.123866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PerlinSolitaryIslandSample.asset
+  artifactKey: Guid(ec8ac7196d9e34a4694de7ce1de34781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PerlinSolitaryIslandSample.asset using Guid(ec8ac7196d9e34a4694de7ce1de34781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b502ce60d59d95982f93e8f96007ac2f') in 0.127233 seconds
+  Import took 0.129696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/DiamondSquareAverageIslandSample.asset
+  artifactKey: Guid(dd00a955d90a53e40b473ef830ea791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DiamondSquareAverageIslandSample.asset using Guid(dd00a955d90a53e40b473ef830ea791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a4c4415c450ab42181476e435de278') in 0.151187 seconds
+  Import took 0.154282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.937610 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(ee18aa52b3f1c5441bd735ba4ae15912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(ee18aa52b3f1c5441bd735ba4ae15912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34344b0f714f7c899b8a9ba7c29baed') in 0.004020 seconds
+  Import took 0.007006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.601804 seconds.
+  path: Assets/DungeonTemplateLibrary
+  artifactKey: Guid(48daa0f6c47068148ab8a8f11aeec8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonTemplateLibrary using Guid(48daa0f6c47068148ab8a8f11aeec8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d93483ff5930f561443ce5661c5719') in 0.005453 seconds
+  Import took 0.010419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.391115 seconds.
+  path: Assets/DungeonTemplateLibrary/Demo
+  artifactKey: Guid(0ea23fb141ebf9a44a885d38c69b5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonTemplateLibrary/Demo using Guid(0ea23fb141ebf9a44a885d38c69b5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272eef8ac1a9234aca642db7b96162b6') in 0.004694 seconds
+  Import took 0.008257 seconds .
+

@@ -36,3 +36,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 RadarSystem/dump.png
+RadarSystem/Logs/AssetImportWorker0.log
+*.log

@@ -27,7 +27,6 @@ public class CameraController : MonoBehaviour
             {
                 var velocity = (cur - prev) * Time.deltaTime;
                 var displacement = new Vector3(velocity.x, 0f, velocity.y);
-                Debug.Log(velocity);
                 ts.position += displacement;
             }
         }

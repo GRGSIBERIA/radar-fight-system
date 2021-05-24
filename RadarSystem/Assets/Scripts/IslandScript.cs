@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#if UNITY_EDITOR
+using System.IO;
+#endif
+
 public class IslandScript : MonoBehaviour
 {
     DTL.Shape.PerlinIsland elevation;
@@ -77,10 +81,17 @@ public class IslandScript : MonoBehaviour
         {
             for (int x = 0; x < img_width; ++x)
             {
-                Color c = biome_color[mat_biome[y, x]];
-                image.SetPixel(x, y, c);
+                image.SetPixel(x, y, biome_color[mat_biome[y, x]]);
             }
         }
+        image.Apply();  // must call function
+
+        GetComponent<MeshRenderer>().material.SetTexture("_MainTex", image);
+
+#if UNITY_EDITOR
+        var png = image.EncodeToPNG();
+        File.WriteAllBytes("./dump.png", png);
+#endif
     }
 
     void InitializeParameters()
